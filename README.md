@@ -33,8 +33,23 @@ The directory structure for your repo should look like this:
       ├── input
       │   └──h1b_input.csv
       ├── output
-          └── top_10_occupations.txt
-          └── top_10_states.txt
+      |   └── top_10_occupations.txt
+      |   └── top_10_states.txt
+      ├── insight_testsuite
+          └── run_tests.sh
+          └── texts
+              └── text_1
+              |   └── input
+              |   |   └──h1b_input.csv
+              |   └── output
+              |   |   └── top_10_occupations.txt
+              |   |   └── top_10_states.txt
+              └── your-own-test_1
+                  └── input
+                  |   └──h1b_input.csv
+                  └── output
+                  |   └── top_10_occupations.txt
+                  |   └── top_10_states.txt
 
 ```
 
