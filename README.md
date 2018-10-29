@@ -5,7 +5,7 @@ The challenge is to calculate **Top 10 Occupations** and **Top 10 States** for *
 ## Run Instructions
 
 #### Input
-Please put visa process data file in folder `./input` and rename as `h1b_input.csv`.
+Please put visa process data file in folder `./input` and *rename* as `h1b_input.csv`.
 
 #### Python version used
 - 2.7.5
@@ -18,6 +18,8 @@ The script can be found at `./src/h1b_topmetrics.py`. You can run the script usi
 ```
 # ./run.sh
 ```
+
+#### Output
 The outputs will be in two files `./output/top_10_occupations.txt` and `./output/top_10_states.txt`.
 
 #### Repo directory structure
